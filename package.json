@@ -1,0 +1,24 @@
+{
+    "name": "wedding-invitation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "gulp build",
+        "predeploy": "npm run build",
+        "deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -d public"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "copy-dir-cli": "0.0.3",
+        "gh-pages": "3.1.0",
+        "gulp": "4.0.2",
+        "gulp-clean-css": "4.3.0",
+        "gulp-imagemin": "7.1.0",
+        "gulp-svgo": "2.2.1",
+        "gulp-uglify-es": "2.0.0",
+        "webpack": "5.27.0",
+        "webpack-cli": "4.5.0"
+    }
+}
