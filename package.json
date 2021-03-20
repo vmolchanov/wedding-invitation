@@ -6,7 +6,7 @@
     "scripts": {
         "build": "gulp build",
         "predeploy": "npm run build",
-        "deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -d public"
+        "deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -d dist"
     },
     "author": "",
     "license": "ISC",
