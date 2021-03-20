@@ -63,7 +63,7 @@ body {
 
 .hint {
     margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     line-height: 30px;
     animation: flash linear 1s infinite;
@@ -116,18 +116,18 @@ body {
 }
 
 .front-name-bride {
-    top: 165px;
+    top: 190px;
     left: 190px;
 }
 
 .front-name-ampersand {
-    top: 198px;
+    top: 220px;
     left: 215px;
 }
 
 .front-name-groom {
-    top: 250px;
-    left: 165px;
+    top: 275px;
+    left: 155px;
 }
 
 .front-date {
@@ -224,10 +224,26 @@ body {
         transform: scale(0.75);
         transform-origin: center top;
     }
+
+    .hint {
+        font-size: 18px;
+    }
+
+    .hint-icon::after {
+        top: 10px;
+    }
 }
 
 @media (max-width: 450px) {
     .card {
         transform: scale(0.5);
+    }
+
+    .hint {
+        font-size: 16px;
+    }
+
+    .hint-icon::after {
+        top: 7px;
     }
 }
