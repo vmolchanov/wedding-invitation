@@ -173,6 +173,7 @@ body {
     position: absolute;
     top: 100px;
     left: 50%;
+    width: 350px;
     font-size: 45px;
     text-align: center;
     line-height: 65px;
