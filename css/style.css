@@ -115,6 +115,7 @@ body {
     font-size: 70px;
     text-align: right;
     color: var(--dark-brown);
+    z-index: 1000;
 }
 
 .front-name-bride {
@@ -140,11 +141,13 @@ body {
     font-family: "Vena";
     font-size: 30px;
     color: var(--light-brown);
+    z-index: 1000;
 }
 
 .front-footer {
     position: relative;
     height: 120px;
+    z-index: 1000;
 }
 
 .front-footer-text {
@@ -169,6 +172,7 @@ body {
     height: 720px;
     background-color: rgba(255, 255, 255, 0.9);
     content: '';
+    z-index: 100;
 }
 
 .back-header {
@@ -181,6 +185,7 @@ body {
     line-height: 65px;
     color: var(--light-brown);
     transform: translateX(-50%);
+    z-index: 1000;
 }
 
 .text-1,
@@ -191,6 +196,7 @@ body {
     text-align: center;
     line-height: 25px;
     color: var(--dark-brown);
+    z-index: 1000;
 }
 
 .text-1 {
@@ -217,6 +223,7 @@ body {
     left: 50%;
     width: 350px;
     transform: translateX(-50%);
+    z-index: 1000;
 }
 
 .back-footer-text {
