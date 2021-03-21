@@ -215,11 +215,13 @@ body {
     position: absolute;
     top: 710px;
     left: 50%;
+    width: 350px;
     transform: translateX(-50%);
 }
 
 .back-footer-text {
     font-size: 20px;
+    text-align: center;
     color: var(--dark-brown);
 }
 
